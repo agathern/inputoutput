@@ -1,0 +1,70 @@
+body {
+	background: #7C96DA;
+}
+
+h1 {
+font-family: comfortaa;
+font-size: 100px;
+text-align: center;
+color: white;
+}
+
+h2{
+position: absolute;
+margin: auto;
+left: 0;right: 0; bottom: 12%;
+font-family: comfortaa;
+font-size: 120px;
+text-align: center;
+color: white;
+}
+
+p{
+margin: auto;
+left: 0;right: 0; top: 20%;
+position: absolute;
+font-family: comfortaa;
+color: white;
+font-family: comfortaa;
+border-radius: 100px;
+text-align: center;
+font-size: 30px;
+}
+
+#box{
+	top: 25%;
+	left: 20%;
+	position: absolute;
+	width: 60%;
+    height: 48%;
+    border-radius: 0.5rem;
+    background: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#gradient{
+position: absolute;
+width: 100%;
+height: 90%;
+top: 4%;
+z-index: -1;
+background: radial-gradient(50% 50% at 50% 50%, #F64136 0%, rgba(255, 255, 255, 0) 100%);
+}
+.ground{
+position: absolute;
+bottom: -20%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 40%;
+width: 100%;
+border-radius: 600px 600px 0 0;
+background: #84CC82 50%;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
