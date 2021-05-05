@@ -146,5 +146,167 @@ document.addEventListener("keydown", function(event){
   }
   // Change the inside of the result paragraph to include the key we just pressed
   result.innerText = event.key + " is for...";
-  
 })
+
+a.onclick = function(){
+  result.innerText = " a is for...";
+  result2.innerText = "avion";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettera.png')";
+}
+  
+b.onclick = function(){
+  result.innerText = " b is for...";
+  result2.innerText = "banane";
+    document.body.style.background = ("#EFBBD9");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterb.png')";
+
+}
+
+c.onclick = function(){
+  result.innerText = " b is for...";
+   result2.innerText = "chapeau";
+    document.body.style.background = ("#7FCBBE");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterc.png')";
+}
+
+d.onclick = function(){
+  result.innerText = " d is for...";
+   result2.innerText = "dent";
+    document.body.style.background = ("#32AAC3");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterd.png')";
+}
+
+e.onclick = function(){
+  result.innerText = " e is for...";
+  result2.innerText = "escargot";
+    document.body.style.background = ("#F59D8F");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettere.png')";
+  }
+f.onclick = function(){
+  result.innerText = " f is for...";
+    result2.innerText = "fromage";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterf.png')";
+  }
+g.onclick = function(){
+  result.innerText = " g is for...";
+    result2.innerText = "gateau";
+    document.body.style.background = ("#EFBBD9");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterg.png')";
+  }
+h.onclick = function(){
+  result.innerText = " h is for...";
+    result2.innerText = "hérisson";
+    document.body.style.background = ("#7FCBBE");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterh.png')";
+  }
+i.onclick = function(){
+  result.innerText = " i is for...";
+    result2.innerText = "insecte";
+    document.body.style.background = ("#32AAC3");
+    document.getElementById("box").style.backgroundImage= "url('assets/letteri.png')";
+  }
+j.onclick = function(){
+  result.innerText = " j is for...";
+    result2.innerText = "jupe";
+    document.body.style.background = ("#F59D8F");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterj.png')";
+  }
+k.onclick = function(){
+  result.innerText = " k is for...";
+    result2.innerText = "kiwi";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterk.png')";
+  }
+l.onclick = function(){
+  result.innerText = " l is for...";
+    result2.innerText = "lune";
+    document.body.style.background = ("#EFBBD9");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterl.png')";
+  }
+m.onclick = function(){
+  result.innerText = " m is for...";
+    result2.innerText = "mouton";
+    document.body.style.background = ("#7FCBBE");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterm.png')";
+  }
+n.onclick = function(){
+  result.innerText = " n is for...";
+    result2.innerText = "nuage";
+    document.body.style.background = ("#32AAC3");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettern.png')";
+  }
+o.onclick = function(){
+  result.innerText = " o is for...";
+    result2.innerText = "oiseau";
+    document.body.style.background = ("#F59D8F");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettero.png')";
+  }
+p.onclick = function(){
+  result.innerText = " p is for...";
+    result2.innerText = "pomme";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterp.png')";
+  }
+  q.onclick = function(){
+  result.innerText = " q is for...";
+    result2.innerText = "question";
+    document.body.style.background = ("#EFBBD9");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterq.png')";
+  }
+  r.onclick = function(){
+  result.innerText = " r is for...";
+    result2.innerText = "rose";
+    document.body.style.background = ("#7FCBBE");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterr.png')";
+  }
+  s.onclick = function(){
+  result.innerText = " s is for...";
+    result2.innerText = "soleil";
+    document.body.style.background = ("#32AAC3");
+    document.getElementById("box").style.backgroundImage= "url('assets/letters.png')";
+  }
+  t.onclick = function(){
+  result.innerText = " t is for...";
+    result2.innerText = "toucan";
+    document.body.style.background = ("#F59D8F");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettert.png')";
+  }
+  u.onclick = function(){
+  result.innerText = " u is for...";
+    result2.innerText = "ukulélé";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/letteru.png')";
+  }
+  v.onclick = function(){
+  result.innerText = " v is for...";
+    result2.innerText = "vache";
+    document.body.style.background = ("#EFBBD9");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterv.png')";
+  }
+  w.onclick = function(){
+  result.innerText = " w is for...";
+    result2.innerText = "wagon";
+    document.body.style.background = ("#7FCBBE");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterw.png')";
+  }
+  x.onclick = function(){
+  result.innerText = " x is for...";
+    result2.innerText = "xylophone";
+    document.body.style.background = ("#32AAC3");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterx.png')";
+  }
+  y.onclick = function(){
+  result.innerText = " y is for...";
+    result2.innerText = "yaourt";
+    document.body.style.background = ("#F59D8F");
+    document.getElementById("box").style.backgroundImage= "url('assets/lettery.png')";
+  }
+ z.onclick = function(){
+  result.innerText = " z is for...";
+    result2.innerText = "zèbre";
+    document.body.style.background = ("#F2EC96");
+    document.getElementById("box").style.backgroundImage= "url('assets/letterz.png')";
+  }
+  
